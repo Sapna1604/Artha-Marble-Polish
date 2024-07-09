@@ -1,0 +1,77 @@
+/* Change Brand Font */
+.navbar-brand {
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 2em;
+  font-weight:lighter;
+}
+
+/* Change Navigation Color */
+.navbar #myMenu .custom-nav .nav-item a {
+  color: black;
+}
+
+.navbar #myMenu .custom-nav .nav-item a:hover {
+  color: white
+}
+
+/* Make Header Image Responsive */
+.back-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  border-radius: 0px;
+  margin-top: 74px;
+}
+
+/* Header Image Sub-Title */
+.font-italic {
+  font-size: 1.3rem;
+}
+
+a {
+  color: black;
+}
+
+.active {
+  color: white;
+  background-color: #d2c0c2;
+}
+
+a:hover {
+  color: #211e1e;
+}
+
+/* Change Footer Icon Link Color */
+.fi-color {
+  color: #35b5dc;
+}
+
+fi-color:hover {
+  color: #a75960;
+}
+
+/* Plus Button for adding New Users Bottom Right */
+.box {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  margin-bottom: 30px;
+}
+
+/* Setting Margin for Welcome to Amp */
+.mainHeading {
+  margin-top: 100px;
+}
+
+/* Setting Margin and Alignment for Welcome to AMp Mobile View */
+@media only screen and (max-width: 600px) {
+  .myclass {
+    margin-top: 400px;
+    text-align:center;
+  ;
+  }
+}
+.body {
+  font-family: Baloo Bhai,cursive;
+}
